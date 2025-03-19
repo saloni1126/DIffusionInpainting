@@ -9,3 +9,8 @@ To start training, execute the following commands:
 cd /content/image-restoration-sde/codes/config/inpainting
 python train.py -opt=options/train/ir-sde.yml
 
+## 🚀 Testing
+To start testing, execute the following commands:  
+```bash
+cd /content/image-restoration-sde/codes/config/inpainting
+python test.py -opt=options/test/ir-sde.yml
